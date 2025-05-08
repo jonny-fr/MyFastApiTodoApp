@@ -1,13 +1,5 @@
 [
     {
-        "username": "$2b$12$qeswVUOL6WrtnCzuJX5Acu8OV7eg.SmI1Wvfj2n.9Uu.AiH0NDJl.",
-        "password": "1234"
-    },
-    {
-        "username": "$2b$12$dd92jMaFqCDxJABzB5vTt.gsDDI6p83Fa0MCbwnquoQ0QuVPcLZ..",
-        "password": "1234"
-    },
-    {
         "username": "jonnyMitSchnauzer",
         "password": "$2b$12$ZUYYqlwbtfED35ZJq0i3JO3nqBJcCQwkHo/BCCTuDu3VtDEad9x.m"
     },

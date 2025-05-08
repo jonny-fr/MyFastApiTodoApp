@@ -1,6 +1,6 @@
 import bcrypt
 from fastapi import FastAPI
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 import json
 from typing import List
 from bcrypt import hashpw, gensalt

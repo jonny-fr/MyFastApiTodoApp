@@ -1,0 +1,15 @@
+version: "3.9"   # aktuelle Compose-Spec
+
+services:
+  web:            # frei wählbarer Servicename
+    build: .      # baut das Image aus der Dockerfile im aktuellen Verzeichnis
+    container_name: fastapi_app
+    ports:
+      - "80:80"   # HostPort:ContainerPort – passt zum EXPOSE-Eintrag und uvicorn-Start
+    restart: unless-stopped  # sorgt für automatischen Neustart z. B. nach Reboot
+
+    # ➜ Optional kannst du hier weitere Optionen ergänzen, z. B.:
+    # environment:
+    #   - PYTHONUNBUFFERED=1
+    # volumes:
+    #   - ./logs:/app/logs
